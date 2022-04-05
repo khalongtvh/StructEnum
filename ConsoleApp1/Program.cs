@@ -42,9 +42,9 @@ namespace ConsoleApp1
         }
         static void XuatSinhVien(SinhVien[] sv_229)
         {
-            foreach (SinhVien item in sv_229)
+            foreach (SinhVien item_229 in sv_229)
             {
-                XuatThongTinSinhVien(item);
+                XuatThongTinSinhVien(item_229);
             }
         }
 
