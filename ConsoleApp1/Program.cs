@@ -62,7 +62,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             SinhVien[] sv_229 = new SinhVien[3];
+            Console.WriteLine("nhap thong tin sinh vien : ");
             NhapSinhVien(sv_229);
+            Console.WriteLine("xuat thong tin sinh vien : ");
             XuatSinhVien(sv_229);
             Console.Write("nhap ten sinh vien can tim : ");
             string name_229 = Console.ReadLine();
